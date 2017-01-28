@@ -1,0 +1,19 @@
+﻿<Window x:Class="HopfieldNET.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HopfieldNET"
+        mc:Ignorable="d"
+        Title="Сеть Хэмминга" Height="456" Width="692" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="400" Background="#FF9C3797" />
+        <Button x:Name="button" Content="Очистить поле" HorizontalAlignment="Left" Margin="415,10,0,0" VerticalAlignment="Top" Width="250" RenderTransformOrigin="-0.547,-0.4" Click="cmClear"/>
+        <Button x:Name="button1" Content="Добавить в образа" HorizontalAlignment="Left" Margin="415,35,0,0" VerticalAlignment="Top" Width="250" Click="cmAddBox"/>
+        <Button x:Name="button2" Content="Очистить все образа" HorizontalAlignment="Left" Margin="415,60,0,0" VerticalAlignment="Top" Width="250" Click="cmClearBoxes"/>
+        <Button x:Name="button3" Content="Показать образ" HorizontalAlignment="Left" Margin="415,85,0,0" VerticalAlignment="Top" Width="250" RenderTransformOrigin="-0.293,-0.3" Click="cmShow"/>
+        <Button x:Name="button4" Content="Найти образ" HorizontalAlignment="Left" Margin="415,110,0,0" VerticalAlignment="Top" Width="250" Click="cmFind"/>
+        <Button x:Name="button5" Content="Выход" HorizontalAlignment="Left" Margin="415,185,0,0" VerticalAlignment="Top" Width="250" Click="cmClose"/>
+
+    </Grid>
+</Window>
