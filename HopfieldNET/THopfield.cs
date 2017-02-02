@@ -34,6 +34,7 @@ namespace HopfieldNET
             Learning();
         }
 
+        // Обучение сети Хопфилда
         void Learning()
         {
             for (int i = 0; i < N; i++)
@@ -47,6 +48,7 @@ namespace HopfieldNET
 
                     for (int m = 0; m < M; m++)
                     {
+                        // корректировка весов
                         w[i, j] += Boxes[m][i] * Boxes[m][j];
                     }
 
@@ -56,6 +58,7 @@ namespace HopfieldNET
 
         }
 
+        // восстановление образа
         public TBox Find(TBox BS, int T = 1000)
         {
             TBox B = new TBox(BS);
