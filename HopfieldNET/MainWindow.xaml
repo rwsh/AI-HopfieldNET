@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HopfieldNET"
         mc:Ignorable="d"
-        Title="Сеть Хэмминга" Height="456" Width="692" WindowStartupLocation="CenterScreen">
+        Title="Сеть Хопфилда" Height="456" Width="692" WindowStartupLocation="CenterScreen">
     <Grid>
         <Canvas x:Name="g" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="400" Background="#FF9C3797" />
         <Button x:Name="button" Content="Очистить поле" HorizontalAlignment="Left" Margin="415,10,0,0" VerticalAlignment="Top" Width="250" RenderTransformOrigin="-0.547,-0.4" Click="cmClear"/>
